@@ -1,6 +1,6 @@
 <?php
-
-
+// db.php
+// Adjust these to match your MySQL credentials
 $host   = 'localhost';
 $dbname = 'myfirstdatabase';
 $user   = 'root';
