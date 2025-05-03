@@ -28,7 +28,7 @@
     <!-- Link to Login -->
     <p class="text-center mt-5 text-gray-600">
         Already have an account? 
-        <a href="/Manage Time/Login/index.php" class="text-blue-500 font-semibold hover:underline">Log In</a>
+        <a href="/Manage Time/Login/login.php" class="text-blue-500 font-semibold hover:underline">Log In</a>
     </p>
 
     <!-- Display Signup Errors -->
