@@ -1,8 +1,5 @@
 <?php
-    /*
-    require_once 'includes/config_session.inc.php';
-    require_once 'includes/login_view.inc.php';
-    */
+    require_once 'includes/config.session.php';
 ?>
 
 <!DOCTYPE html>
@@ -21,7 +18,7 @@
     </h1>
 
     <!-- Login Form -->
-    <form class="flex flex-col items-center mt-20" action="includes/login.inc.php" method="post">
+    <form class="flex flex-col items-center mt-20" action="includes/login.inc.php" method="POST">
         <!-- Email Input -->
         <input type="email" name="email" placeholder="Email" required 
                class="w-[260px] p-2 mb-4 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#5869FF]">
