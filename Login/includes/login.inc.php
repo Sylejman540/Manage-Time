@@ -36,5 +36,5 @@ $_SESSION['user_id']    = (int)$user['id'];
 // $_SESSION['user_email'] = $email;
 
 // 4) Redirect into your app
-header('Location: ../main-page/main.php?login=success');
+header('Location: /Manage Time/main-page/main.php?login=success');
 exit;
