@@ -27,6 +27,6 @@ function set_user(object $pdo, string $username, string $password, string $email
     $stmt = $pdo->prepare($query);
     $stmt->bindParam(":username", $username);
     $stmt->bindParam(":email", $email);
-    $stmt->bindParam(":password", $password);
+    $stmt->bindParam(":password", password_hash($password, PASSWORD_DEFAULT));
     $stmt->execute();
 }
