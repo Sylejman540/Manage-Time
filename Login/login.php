@@ -1,8 +1,3 @@
-<?php
-   require_once 'includes/config.session.inc.php';
-   require_once 'includes/login.view.inc.php';
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>  
@@ -18,13 +13,10 @@
         Log <span class="text-blue-500">In</span>
     </h1>
 
-    <?php
-         check_login_errors();
-    ?>  
     <!-- LOGIN -->
-    <form class="flex flex-col items-center mt-20" action="includes/login.inc.php" method="post">
+    <form class="flex flex-col items-center mt-20" action="includes/login.inc.php" method="POST">
         <input type="text" name="username" placeholder="Username" class="w-[260px] p-2 mb-4 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#5869FF]">
-        <input type="text" name="password" placeholder="Password" class="w-[260px] p-2 mb-4 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#5869FF]"> 
+        <input type="password" name="password" placeholder="Password" class="w-[260px] p-2 mb-4 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#5869FF]"> 
         <button type="submit" name="submit" class="bg-blue-500 w-[260px] text-white font-bold p-2 rounded-lg mb-5 hover:bg-blue-800">Login</button>
     </form>
 
