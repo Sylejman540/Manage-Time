@@ -9,8 +9,10 @@
 </head>
 <body class="min-h-screen bg-gradient-to-br from-blue-800 to-blue-400 p-4 text-white">
     <!-- Header -->
-    <header class="text-center bg-white py-5 rounded-xl">
-        <h1 class="text-xl font-cursive text-black">Add A Task</h1>
+    <header class="text-center bg-white py-5 rounded-xl flex justify-center items-center shadow-lg md:gap-100 gap-20"> 
+      <h1 class="text-2xl font-cursive text-black font-bold"><a href="/Manage Time/main-page/main.php">Time<span class="text-blue-500">Wise</span></a></h1>
+      <h1 class="text-xl font-cursive text-black">You Can Add A Task</h1>
+        
     </header>
 
     <div class="overflow-x-auto bg-white bg-opacity-90 backdrop-blur-md rounded-2xl shadow-lg mt-8 p-4">
