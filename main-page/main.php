@@ -28,6 +28,8 @@
                 <li><a href="#contact" class="hover:text-blue-500">Contact</a></li>
             </ul>
         </nav>
+        
+        <button class="bg-blue-500 p-2 px-5 text-white rounded-lg font-bold hover:bg-blue-800 md:ml-0 ml-25"><a href="logout.php">Logout</a></button>
     </header>
 
     <!-- This Nav-Bar Is For Mobile -->
